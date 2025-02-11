@@ -1,0 +1,98 @@
+/* .instilogo {
+    height: 50px;
+    filter: grayscale(20%);
+} */
+.scaled-image {
+    max-width: 60px; /* Set the maximum desired width */
+    max-height: 60px; /* Set the maximum desired height */
+    filter: grayscale(80%);
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.scaled-image:hover {
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
+    transform: scale(1.1); /* Increase the scale on hover */
+}
+
+.rotated-image {
+    transform: rotate(-90deg);
+}
+a:hover {
+    /* font-weight: 400; */
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    /* color: #444; */
+}
+
+
+.noter {
+    font-size: 9pt;
+}
+
+.tagsep {
+    padding: 4px;
+}
+
+.tag {
+    padding-right: 2px;
+}
+
+.confshort {
+    font-weight: 300;
+}
+
+.conf {
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.paper {
+    border-left: 1px solid #ddd;
+}
+
+.menulink:hover {
+    color: #111;
+}
+
+.profilepic {
+    width: 250px;
+    border-radius: 40%;
+    filter: grayscale(30%);
+}
+
+@media (min-width: 768px) {
+    .fixed-posi {
+        /* width: 50%;
+            margin-left: 50%;
+            min-height:100%; */
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .allstuff {
+        padding-top: 0px !important;
+    }
+
+    .allstuffp {
+        padding-top: 0px !important;
+    }
+
+    .profilepic {
+        width: 250px;
+        border-radius: 40%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        /* filter: grayscale(100%); */
+    }
+
+    .menur {
+        padding-top: 18px !important;
+    }
+
+}
+
+/* .thisauthor {
+          color: #111;
+          text-decoration: underline;
+    } */
