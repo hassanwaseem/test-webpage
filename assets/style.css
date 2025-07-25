@@ -1,7 +1,50 @@
-/* .instilogo {
-    height: 50px;
-    filter: grayscale(20%);
-} */
+/* Modern styling for the personal webpage */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.name {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.about {
+    font-size: 1rem;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.menur a {
+    color: #555;
+    display: block;
+}
+
+.menur a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.papertitle {
+    font-weight: 500;
+    color: #111;
+}
+
+.thisauthor {
+    text-decoration: underline;
+}
 .scaled-image {
     max-width: 60px; /* Set the maximum desired width */
     max-height: 60px; /* Set the maximum desired height */
@@ -47,7 +90,11 @@ a:hover {
 }
 
 .paper {
-    border-left: 1px solid #ddd;
+    border-left: 2px solid #e5e5e5;
+    padding-left: 8px;
+    margin-bottom: .5rem;
+    color: #555;
+    font-size: .95rem;
 }
 
 .menulink:hover {
